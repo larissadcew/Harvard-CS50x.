@@ -1,0 +1,156 @@
+body{
+    background-color: black;
+    color: white;
+}
+.position_image_metade{
+    border-style: solid;
+    border-color: #3c3c3c;
+    border-radius: 5%;
+    width: 480px;
+    height: 300px;
+    position: relative;
+    top:200px
+}
+.size1_video{
+    border-style: solid;
+    border-color: #3c3c3c;
+    border-radius: 1%;
+    width: 340px;
+    height: 600px;
+    position: relative;
+    top:197px;
+    left:50px;
+}
+.size2_video{
+    border-style: solid;
+    border-color: #3c3c3c;
+    border-radius: 1%;
+    width: 340px;
+    height: 600px;
+    position: relative;
+    top:1200px;
+    left:2px;
+
+}
+.size3_video{
+    border-style: solid;
+    border-color: #3c3c3c;
+    border-radius: 1%;
+    width:340px;
+    height:600px;
+    position:relative;
+    top:600px;
+    left:440px;
+
+}
+
+#name_link_header{
+    font-size: 18px;
+    font-weight:330;
+    left:30px;
+    position:relative;
+    top:40px;
+    left:123px;
+    color:white;
+}
+#contact-link_header{
+    font-size: 18px;
+    font-weight:330;
+    position:relative;
+    left:1058px;
+    top:40px;
+    color:white;
+}
+#about_link_header{
+    font-size: 18px;
+    font-weight:330;
+    position:relative;
+    top:39px;
+    left:1100px;
+    color:white;
+}
+#title_center_big{
+    font-size: 300px;
+    position:relative;
+    top:100px;
+}
+#first_frese{
+    position:relative;
+    top:40px;
+    left: 230px;
+
+}
+#secund_frese{
+    position:relative;
+    top:0px;
+    left: 1000px;
+}
+#image_1{
+    position:relative;
+    left:10px;
+}
+#image_2{
+    position:relative;
+    left:30px;
+
+}
+#image_3{
+    position:relative;
+    left:50px;
+}
+#image_4{
+    position:relative;
+    left:10px;
+}
+#image_5{
+    position:relative;
+    left:30px;
+
+}
+#image_6{
+    position:relative;
+    left:50px;
+}
+#latters_1{
+    position:relative;
+    font-family: sans-serif ;
+    top:-400px;
+    left:450px;
+    font-size:90px;
+}
+#latters_2{
+    position:relative;
+    font-family:sans-serif;
+    top:-400px;
+    left:120px;
+    font-size:90px;
+
+}
+#latters_3{
+    position:relative;
+    font-family:sans-serif;
+    top:-400px;
+    left:750px;
+    font-size:90px;
+
+}
+#lettes_astronomy{
+    position: relative;
+    font-family: sarifa;
+    top:280px;
+    left: 130px;
+
+}
+#letters_black{
+    position: relative;
+    font-family: sarifa;
+    top:1300px;
+    left: 1300px;
+
+}
+#letter_time{
+    position: relative;
+    font-family: sarifa;
+    top:1200px;
+    left: 450px;
+}

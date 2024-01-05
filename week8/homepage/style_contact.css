@@ -1,0 +1,48 @@
+.button_submit{
+    background:white;
+    border-radius: 10%;
+    position:relative;
+    top:410px;
+    left:220px;
+    font-size:30px;
+}
+.size_latters{
+    font-size: 150px;
+}
+#frase_1{
+    position:relative;
+    left:200px;
+    top: 100px;
+
+}
+#frase_2{
+    position:relative;
+    left:610px;
+    top:70px;
+
+}
+#name_link_header{
+    font-size: 18px;
+    font-weight:330;
+    left:30px;
+    position:relative;
+    top:46px;
+    left:126px;
+    color:black;
+}
+#contact-link_header{
+    font-size: 18px;
+    font-weight:330;
+    position:relative;
+    left:1200px;
+    top:43px;
+    color:black;
+}
+#about_link_header{
+    font-size: 18px;
+    font-weight:330;
+    position:relative;
+    top:45px;
+    left:995px;
+    color:black;
+}
