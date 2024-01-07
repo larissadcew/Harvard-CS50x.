@@ -1,0 +1,42 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o contêiner */
+  #container {
+    margin: 0px;
+  }
+  
+  /* Estilos para o formulário */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para a tabela de histórico */
+  #history-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #history-table th, #history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilos para os cabeçalhos da tabela de histórico */
+  .history-header {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para as linhas da tabela de histórico */
+  .history-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .history-row:hover {
+    background-color: #e0e0e0;
+  }

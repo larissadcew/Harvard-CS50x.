@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    REGISTER
+{% endblock %}
+
+{% block main %}
+<head>
+    <link href="/static/styles_registrer.css" rel="stylesheet">
+</head>
+
+<form action="/register" method="post">
+    <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" style="width: 300px;" name="username" placeholder="username" type="text">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="register_password" style="width: 300px;" name="password"  placeholder="password" type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="register_password" style="width: 300px;" name="confirmation" placeholder="confirmation" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit" id="button_sell">Registras</button>
+    </form>
+{% endblock %}

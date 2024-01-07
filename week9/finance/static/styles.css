@@ -1,0 +1,43 @@
+body{
+    overflow-x:hidden;
+    background:white;
+}
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+    font-family:'Korinna BT';
+}
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: black;
+    font-family:'Korinna BT';
+}
+nav .navbar-brand .red
+{
+    color: black;
+    font-family:'Korinna BT';
+
+}
+nav .navbar-brand .yellow
+{
+    color: black;
+    font-family:'Korinna BT';
+
+}
+nav .navbar-brand .green
+{
+    color: black;
+    font-family:'Korinna BT';
+
+}
+#nav_bar_todo{
+    background: rgba(255,0,0,0.1);
+    font-family:'Korinna BT';
+
+}
+#sss{
+    position:relative;
+    top:200px;
+}

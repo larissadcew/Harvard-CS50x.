@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    HISTORY
+{% endblock %}
+
+{% block main %}
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/history.css">
+  </head>
+
+  <div id="container">
+    <form action="/history">
+      <table id="history-table">
+        <thead>
+          <tr>
+            <th class="history-header">Symbol</th>
+            <th class="history-header">Type</th>
+            <th class="history-header">Shares</th>
+            <th class="history-header">Price</th>
+            <th class="history-header">Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for transaction in transactions %}
+            <tr class="history-row">
+              <td>{{ transaction["symbol"] }}</td>
+              <td>{{ transaction["type"] }}</td>
+              <td>{{ transaction["shares"] }} </td>
+              <td>{{ usd(transaction["price"]) }}</td>
+              <td>{{ transaction["time"] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </form>
+  </div>
+{% endblock %}

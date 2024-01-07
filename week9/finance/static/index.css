@@ -1,0 +1,32 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para o formulário */
+  #main-form {
+    margin: 20px;
+  }
+  
+  /* Estilos para a tabela de ações */
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .stock-table th, .stock-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilos para os cabeçalhos da tabela */
+  .symbol-header, .name-header, .shares-header, .price-header, .total-header, .cash-header {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para os valores totais */
+  .total-value, .cash-value {
+    font-weight: bold;
+  }

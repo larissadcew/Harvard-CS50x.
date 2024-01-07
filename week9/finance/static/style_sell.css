@@ -1,0 +1,56 @@
+body{
+    overflow-x:hidden;
+    background:white;
+}
+.mb-3{
+    position:relative;
+    top:200px;
+    left:0px;
+}
+#button_sell{
+    position:relative;
+    left:0px;
+    top:-100px;
+    border-radius:7px;
+    transition: all 0.3s;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#button_sell:hover{
+    transform: translateY(-3px);
+    background-color: var(--crl-accent);
+    color: var(--clr-light);
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+#option_id {
+    width: 10%;
+    padding: 9px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    position: relative;
+    top: 230px;
+    left: 530px;
+}
+
+#option_id{
+    position:relative;
+    top:3px;
+    left:2px;
+}
+#button_sell{
+    position:relative;
+    top:230px;
+    left:2px;
+}

@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    BUY
+{% endblock %}
+
+{% block main %}
+<head>
+    <link href="/static/style_buy.css" rel="stylesheet">
+</head>
+    <form action="/buy" method="post"></form>
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" style="width: 300px;"  id="symbol" name="symbol" placeholder="Symbol" type="text">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="" style="width: 300px;" style="height:100px" name="shares" id="confirm" placeholder="shares" type="number" min="1" >
+        </div>
+        <button class="btn btn-primary" type="submit" id="button_buy">Buy</button>
+    </form>
+{% endblock %}

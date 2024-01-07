@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    INDEX
+{% endblock %}
+
+{% block main %}
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/index.css">
+</head>
+
+  <section id="main-section">
+    <!-- for demo wrap -->
+    <form action="/" id="main-form">
+      <body>
+        <table class="stock-table">
+          <thead>
+            <tr>
+              <th class="symbol-header">Symbol</th>
+              <th class="name-header">Name</th>
+              <th class="shares-header">Shares</th>
+              <th class="price-header">Price</th>
+              <th class="total-header">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for stock in stocks %}
+              <tr>
+                <td>{{ stock["symbol"]}}</td>
+                <td>{{ stock["name"] }}</td>
+                <td>{{ stock["totalSheres"] }}</td>
+                <td>{{ usd(stock["price"]) }}</td>
+                <td>{{ usd(stock["totalSheres"] * stock["price"]) }}</td>
+                <td class="total-value">{{ stock["total_value"] }}</td>
+              </tr>
+              {% endfor %}
+            <tr>
+                <td class="cash-header">Cash</th>
+                <td colspan="3"></td>
+                <td class="cash-value">{{ usd(cash) }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </body>
+    </form>
+  </section>
+{% endblock %}

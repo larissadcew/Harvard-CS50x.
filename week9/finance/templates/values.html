@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <ul>
+         <p>A share of {{ quote_name }} has price of {{ usd_function(quote_prices) }}</p>
+    </ul>
+{% endblock %}

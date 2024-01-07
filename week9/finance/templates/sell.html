@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    SELL
+{% endblock %}
+
+{% block main %}
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/style_sell.css">
+</head>
+    <form action="/sell" method="post">
+        <div class="mb-3">
+            <select class="option" name="symbol" id="option_id">
+                {% for symbol in symbols %}
+                    <option>{{symbol["symbol"]}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="stock_sell_number" style="width: 50px; height: 50px" name="shares" placeholder="Shares" type="number" min="1">
+        </div>
+        <button class="btn btn-primary" type="submit" id="button_sell">Sell</button>
+    </form>
+{% endblock %}
