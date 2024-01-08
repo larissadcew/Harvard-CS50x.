@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-<img src="./images/H.png" alt="logo" height="150"/>
+<img src="" alt="logo" height="150"/>
 </p>
 
 <h1 align="center">
