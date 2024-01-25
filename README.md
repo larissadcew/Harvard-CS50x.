@@ -12,4 +12,3 @@
   <a href="https://cs50.harvard.edu/x/2023/">Course Link</a> |
   <a href="https://github.com/me50/larissadcew/tree/6ff5ef095070ab715f6172b0d0e8a738382f068b">Final Project</a> 
 </p>
-![Captura de tela 2024-01-25 110808](https://github.com/larissadcew/Harvard-CS50x./assets/132204048/97b01b6e-817b-42f2-89ae-85bf724d5de9)
