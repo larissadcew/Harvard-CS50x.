@@ -14,4 +14,4 @@
 </p>
 
 
-![Captura de tela 2024-01-25 110148](https://github.com/larissadcew/Harvard-CS50x./assets/132204048/1b66f273-24f5-405f-a49b-1ebf1c7bee1a)
+![Captura de tela 2024-01-25 110808](https://github.com/larissadcew/Harvard-CS50x./assets/132204048/97b01b6e-817b-42f2-89ae-85bf724d5de9)
