@@ -13,8 +13,5 @@
   <a href="https://github.com/me50/larissadcew/tree/6ff5ef095070ab715f6172b0d0e8a738382f068b">Final Project</a> 
 </p>
 
-<p>vnrv r3k r 3knv 3r vk</p>
 
-<h1>imagemcertificado</h1>
-  <img src="my_centificated.jpg
-" width="20" />
+![Captura de tela 2024-01-25 110148](https://github.com/larissadcew/Harvard-CS50x./assets/132204048/1b66f273-24f5-405f-a49b-1ebf1c7bee1a)
